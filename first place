@@ -1,1 +1,19 @@
+# numpy
+numpy is python libaray.
+numpy called numerical python.
+numpy is used to working with array.
+it was created in 2005by travis oliphant.it is an open source project it is used eaisly.
+it also has functionfor working domain of linear algebra, fourier transformand matrices.
+numpy always be written in python.
+
+# why use numpy
+in python we have list that serve the purpose of array .but they are slow to process.
+numpy aims to provide an array object that is up to fa
+
+# numpy example
+import numpy as np
+arr=np.arr([1,3,4,5,6,7,9])
+print(arr)
+print(type(arr))
+
 
