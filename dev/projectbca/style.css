@@ -1,0 +1,25 @@
+.change{
+    text-align: center;
+    text-decoration: solid;
+    margin: 0 auto;
+    padding: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-position: inside;
+    display: inline-block;
+}
+.gantt{
+    text-align: center;
+    margin: 20px 0;
+
+   
+}
+.gantt img{
+    max-width: 100%;
+    height: auto;
+}
+.maker{
+    padding-bottom: 33px;
+}
+body{
+    box-shadow: darkgray;
+}

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #131921;
+  color: white;
+  padding: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+.mo{
+  background-color: lightslategray;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #febd69;
+  border: none;
+  cursor: pointer;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.footer{
+  background-color: #232f3e;
+  color: #ddd;
+  /* column-gap: 0dvb;
+  border-bottom-left-radius: 0cqi; */
+}
+.footer-top{
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+  border-bottom: 1px solid #3a4553;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+.column a{
+  text-decoration: none;
+}
+.column a:hover{
+  text-decoration: underline;
+}
+.footer-bottom{
+  margin: 5px;
+  padding: 8px 12px;
+  text-align: center;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #ccc;
+
+}
+.left{
+  text-align: left;
+}
+.center{
+  text-align: center;
+  display: flexbox;
+}
