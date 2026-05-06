@@ -1,5 +1,13 @@
+@media print{
+    .page-break{
+        break-before:always;
+        display: block;
+
+    }
+}
+
 .change{
-    text-align: center;
+    text-align: justify;
     text-decoration: solid;
     margin: 0 auto;
     padding: 35px;
@@ -9,13 +17,14 @@
 }
 .gantt{
     text-align: center;
-    margin: 20px 0;
-
+    
    
 }
 .gantt img{
     max-width: 100%;
     height: auto;
+    display: block;
+    text-align: center;
 }
 .maker{
     padding-bottom: 33px;
@@ -23,3 +32,7 @@
 body{
     box-shadow: darkgray;
 }
+.bold{
+    font-weight: bold;
+}
+
