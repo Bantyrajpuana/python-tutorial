@@ -5,16 +5,36 @@
 
     }
 }
-
-.change{
-    text-align: justify;
-    text-decoration: solid;
-    margin: 0 auto;
-    padding: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    list-style-position: inside;
-    display: inline-block;
+*{
+    margin: 3px;
+    padding: 4px;
+  
+    font-size:large;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
+.change{
+    
+    text-decoration: solid;
+    text-align: justify;
+    /* width: 217mm;
+    font-size: 19pt;
+    font-weight: 10;
+    line-height: 2.2; */
+    margin: 39px;
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+/* .upgrade{
+    font-size: large;
+    text-align: justify;
+    
+} */
+ .center{
+    text-align: center;
+ }
 .gantt{
     text-align: center;
     
@@ -31,6 +51,9 @@
 }
 body{
     box-shadow: darkgray;
+    font-size: large;
+    font-weight: 200;
+    font-style:inherit;
 }
 .bold{
     font-weight: bold;
